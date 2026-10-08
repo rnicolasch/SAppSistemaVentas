@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="AppSistemaVentas/AppSistemaVentas.csproj" />
+  <Project Path="Interfaces/Interfaces.csproj" />
+  <Project Path="Modelos/Modelos.csproj" />
+  <Project Path="Presentacion/Presentacion.csproj" />
+  <Project Path="Servicios/Servicios.csproj" />
+</Solution>
