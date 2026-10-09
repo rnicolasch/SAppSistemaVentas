@@ -202,13 +202,18 @@ Antes de cerrar el sistema se puede solicitar una confirmación.
 El proyecto puede organizarse utilizando diferentes clases para separar las responsabilidades del sistema.
 
 SistemaVentas/  
-
 |  
 |── Program.cs  
 │  
-|── Models/  
+|── Interfaces/  
+│   ├── IProductoService.cs  
+│   ├── IUsuarioService.cs  
+│   └── IVentaService.cs  
+|  
+|── Modelos/  
 │   ├── Usuario.cs  
 │   ├── Producto.cs  
+│   ├── DetalleVenta.cs  
 │   └── Venta.cs  
 │  
 ├── Services/  
@@ -216,6 +221,6 @@ SistemaVentas/
 │   ├── ProductoService.cs  
 │   └── VentaService.cs  
 │  
-└── Utils/  
-    └── Validaciones.cs  
+└── Presentacion/  
+    └── Menu.cs  
 
